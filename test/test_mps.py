@@ -10915,6 +10915,9 @@ class TestConsistency(TestCaseMPS):
         'nn.functional.glu',
         '_native_batch_norm_legit',
         'native_batch_norm',
+        '_softmax_backward_data',
+        'log_softmax',
+        'masked_log_softmax',
 
         # for macOS 12
         'masked.normalize', 'masked.sum', 'masked.var',
